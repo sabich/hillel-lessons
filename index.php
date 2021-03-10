@@ -10,6 +10,6 @@ $title = 'Lessons';
     <title><?= $title ?></title>
 </head>
 <body>
-
+<a href="lesson_3_1.php">ДЗ урок 3 задание 1</a>
 </body>
 </html>
