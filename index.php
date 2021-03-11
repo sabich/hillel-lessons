@@ -11,5 +11,6 @@ $title = 'Lessons';
 </head>
 <body>
 <a href="lesson_3_1.php">ДЗ урок 3 задание 1</a>
+<a href="lesson_3_2.php">ДЗ урок 3 задание 2</a>
 </body>
 </html>
