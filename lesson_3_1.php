@@ -60,3 +60,22 @@ function getSumSecondElement($iterator, &$sum) {
 }
 
 echo 'sum = ' . $sum;
+
+function recSum(array $arr)
+{
+    $i = 1;
+    $sum = 0;
+    foreach ($arr as $key => $value) {
+        if (is_array($value)) {
+            $sum += recSum($arr);
+        }
+        if (
+            2 == $i
+            && (is_integer($value) || is_double($value))
+        ) {
+            $sum = $value;
+        }
+        $i++;
+    }
+    return $sum;
+}
