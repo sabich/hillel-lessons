@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Models;
+namespace App\Models\Animal;
 
 
 class Predator extends Animal

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Models;
+namespace App\Models\Vehicle;
 
 
 abstract class Vehicle

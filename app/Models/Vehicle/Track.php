@@ -1,10 +1,10 @@
 <?php
 
 
-namespace App\Models;
+namespace App\Models\Vehicle;
 
 
-class Boat extends Vehicle
+class Track extends Vehicle
 {
 
     private int $maxSpeed;
@@ -16,6 +16,6 @@ class Boat extends Vehicle
 
     function speed(): string
     {
-        return 'The maximum speed of this boat on the water: '.$this->maxSpeed.PHP_EOL;
+        return 'Max speed this track: '.$this->maxSpeed.PHP_EOL;
     }
 }
